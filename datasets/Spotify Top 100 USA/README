@@ -1,1 +1,15 @@
 Source: https://www.kaggle.com/datasets/tamle507/spotify-top-100-usa-podcasts-with-eps?select=spotify_usa_podcasts_ranks.csv
+
+NOTE: These three files only consist of data of top 100. That is, it only has 100 rows.
+
+1. spotify_usa_podcasts_ranks.csv - This file contains podcast_rank, podcast_id (unique), podcast_name, publishers
+                                  - This has no purpose with the project as this has no details describing the podcast.
+
+2. spotify_usa_top100_podcasts.csv - This file contains podcast_id, podcast_name, podcast_description, 	publisher	                                          total_episodes, language,	is_externally_hosted, explicit, copyrights,media_type	                                     available_markets (two-letter country codes)
+                                   - This file has some purpose as it has description, total_episodes, language and                                         available markets.
+
+3. spotify_usa_top100_podcasts_episodes - This file contains episode_id,	podcast_id,episdoe_name,
+                                          episode_description,	duration_ms,	release_date,	release_date_precision
+                                          explicit,	is_externally_hosted,	is_playable,	language,	restriction_reason.
+                                        - This file has some purpose as it has episode_name, episode_description,
+                                          duration_ms, release_date, language. 
