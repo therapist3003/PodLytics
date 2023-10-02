@@ -1,0 +1,14 @@
+This file contains ideas that I thought of implementing regarding to Podcast Data
+
+To-Do: Try to implement the following and add any new ideas
+
+Can be implemented (with current knowledge)
+1. Sentiment Analysis
+2. Podcast - Genre Classification
+3. Podcast - Popularity Prediction
+4. Podcast Listeners Clustering - HeatMap Maybe
+
+Cannot be implemented (or difficult):
+1. Podcast transcription & summarization - Requires audio data(available but difficult to handle than text)
+2. Speaker identification - Same as above
+3. Podcast - Anomaly Detection
