@@ -12,3 +12,11 @@ Cannot be implemented (or difficult):
 1. Podcast transcription & summarization - Requires audio data(available but difficult to handle than text)
 2. Speaker identification - Same as above
 3. Podcast - Anomaly Detection
+
+Refined Ideas:
+1. Train model with summary & category from data.world episodes-sample.csv. Try to predict category.
+   Example: Naive Bayes, SVM, LSTM, BERT
+2. Lexicon-based Sentiment Analysis for summary column (Since summary is not labeled positive,negative etc.,)
+   Example libraries: NLTK, VADER
+3. Podcast genre classification (using summary, description and keywords)
+4. ??Check how to implement from popularity prediction
