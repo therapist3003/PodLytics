@@ -1,24 +1,18 @@
 This file contains ideas that I thought of implementing regarding to Podcast Data
 
-To-Do: Try to implement the following and add any new ideas
+Finalized Ideas (Categorized by dataset):
+1. data.world Dataset:-
+   - Podcast category PREDICTION (shows.csv)
+            Example: Naive Bayes, SVM, LSTM, BERT
+   - Lexicon-based sentiment(+ve, -ve, neutral) analysis from summary (shows/episode_sample.csv)
+            Example: NLTK, VADER
+   - Podcast genre/category CLASSIFICATION (episodes_sample.csv)
+            Example: (TF-IDF, Word2Vec, GloVe) with (Multinomial Naive Bayes, SVM, DL LSTM, DL CNN)
 
-Can be implemented (with current knowledge)
-1. Sentiment Analysis
-2. Podcast - Genre Classification
-3. Podcast - Popularity Prediction
-4. Podcast Listeners Clustering - HeatMap Maybe
+2. Top Spotify USA Podcasts data: [Refer GPT chat: https://chat.openai.com/share/04cd6380-5fc7-472e-adc5-e4eb742f556f]
+   - Popularity prediction (top100_podcasts.csv)
+   - K-Means Clustering for top 100 episodes (top100_episodes.csv) 
 
-Cannot be implemented (or difficult):
-1. Podcast transcription & summarization - Requires audio data(available but difficult to handle than text)
-2. Speaker identification - Same as above
-3. Podcast - Anomaly Detection
-
-Refined Ideas:
-1. Train model with summary & category from data.world episodes-sample.csv. Try to predict category.
-   Example: Naive Bayes, SVM, LSTM, BERT
-2. Lexicon-based Sentiment Analysis for summary column (Since summary is not labeled positive,negative etc.,)
-   Example libraries: NLTK, VADER
-3. Podcast genre classification (using summary, description and keywords)
-   Feature Extraction - TF-IDF, Word2Vec, GloVe
-   Algo - Multinomial Naive Bayes, SVM, DL LSTM, DL CNN
-4. Check how to implement from popularity prediction
+3. Box.com (Spotify official data)
+   - Lexicon-based sentiment analysis for summary (metadata.tsv)
+            Example: NLTK, VADER
