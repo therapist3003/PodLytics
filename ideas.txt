@@ -19,4 +19,6 @@ Refined Ideas:
 2. Lexicon-based Sentiment Analysis for summary column (Since summary is not labeled positive,negative etc.,)
    Example libraries: NLTK, VADER
 3. Podcast genre classification (using summary, description and keywords)
-4. ??Check how to implement from popularity prediction
+   Feature Extraction - TF-IDF, Word2Vec, GloVe
+   Algo - Multinomial Naive Bayes, SVM, DL LSTM, DL CNN
+4. Check how to implement from popularity prediction
